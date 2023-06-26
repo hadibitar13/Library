@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(41, 40, 40);
+    color: rgb(255, 255, 255);   
+    height: 70px;
+}
+header p{
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}   
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+pre a{
+    color: rgb(0, 0, 0);
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    background-color: rgb(255, 250, 250);
+    border-radius: 10px;
+}
+#R{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 2px;
+}
+table{
+    width: 100%;
+    background-color: rgb(234, 232, 232);
+}
+td{
+height: 200px;
+
+}
+section{
+    width: 300px;
+    background-color: rgb(201, 196, 196);
+    margin-left: 20%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+section img{
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+section p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+section:hover{
+ background-color: black;   
+ color: white;
+}
